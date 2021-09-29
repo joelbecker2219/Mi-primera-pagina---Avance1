@@ -1,0 +1,72 @@
+header {
+    background-color: rgba(149, 149, 248, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(102, 122, 122, 0)
+}
+
+nav a {
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+}
+
+section {
+    background-color: rgba(90, 90, 247, 0);
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+#contacto{
+   text-align: center;
+   
+}
+#ubiSucursales{
+    float: left;
+}
+#btn-enviar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    color: rgb(14, 13, 13);
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    background-color: #88928800;
+    background-image: url(../imgs/background.jpeg);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgba(12, 12, 12, 0.596);
+   
+  }
+  
+  .button:hover {background-color: #828a82c5}
+  
+  .button:active {
+    background-color: #a1a5a1de;
+    box-shadow: 0 5px rgba(20, 20, 20, 0.384);
+    transform: translateY(4px);
+  }
+
+footer {
+    
+    background-color: rgba(45, 45, 51, 0);
+    background-image:url(../imgs/background.jpeg) ;
+    background-size: cover;
+    /* color: cornsilk; */
+    padding: 10px;
+    text-align: center;
+}
